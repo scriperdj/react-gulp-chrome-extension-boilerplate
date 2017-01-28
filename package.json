@@ -1,5 +1,5 @@
 {
-  "name": "react-chrome-extension-boilerplate-browserify",
+  "name": "react-gulp-chrome-extension-boilerplate-browserify",
   "version": "1.0.0",
   "description": "Boilerplate for Chrome extension using React.js, Browserify and Gulp automation",
   "main": "index.js",
