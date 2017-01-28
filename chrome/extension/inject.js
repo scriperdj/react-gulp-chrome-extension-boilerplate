@@ -39,10 +39,10 @@ class InjectApp extends Component {
   }
 }
 
-window.addEventListener('load', () => {
+(function () {
   const injectDOM = document.createElement('div');
   injectDOM.className = 'inject-react-example';
   injectDOM.style.textAlign = 'center';
   document.body.appendChild(injectDOM);
   render(<InjectApp />, injectDOM);
-});
+})()

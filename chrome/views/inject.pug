@@ -4,6 +4,7 @@ html
   head
     meta(charset='UTF-8')
     title Redux TodoMVC Example (Inject)
+    link(rel='stylesheet', href='/todoapp.css')
     style.
       html, body {
         background-color: rgba(0,0,0,0)
@@ -12,4 +13,4 @@ html
     #root
     if env !== 'prod'
       script(src='chrome-extension://lmhkpmbekcpmknklioeibfkpmmfibljd/js/redux-devtools-extension.js')
-    script(src=env == 'prod' ? '/js/todoapp.bundle.js' : 'https://localhost:3000/static/javascripts/todoapp.bundle.js')
+    script(src='/js/todoapp.bundle.js')
