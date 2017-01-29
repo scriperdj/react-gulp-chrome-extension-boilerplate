@@ -1,5 +1,5 @@
 # Chrome Extension Boilerplate using React/Redux & Gulp automation
-[![Build Status](https://travis-ci.org/scriperdj/react-gulp-chrome-extension-boilerplate.svg?branch=master)]
+![Build Status](https://travis-ci.org/scriperdj/react-gulp-chrome-extension-boilerplate.svg?branch=master)
 
 This is a modification to [react-chrome-extension-boilerplate](https://github.com/jhen0409/react-chrome-extension-boilerplate) to use [Gulp](http://gulpjs.com/) automation instead [Webpack](https://webpack.github.io/).
 
